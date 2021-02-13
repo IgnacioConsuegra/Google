@@ -1,11 +1,94 @@
+html{
+    font-size: 62.5%;
+}
+
 *{
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
+
+body{
+    font-size: 1.2rem;
+    font-family: arial,sans-serif;
+    width: 100%;
+    height: 100vh;
 }
-:root{
+
+header{
+    height: 4.8rem;
+    width: 100%;
+}
+
+.--desktop__active{
+    display: none;
+}
+
+.nav__ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__ul__desplegable{
+    flex-grow: 0;
+    margin: 0 1rem;
+    padding: 0.8rem;
+}
+
+.nav__ul__relleno{
+    display: block;
+    flex-basis: auto;
+    height: 4.8rem;
+    flex-grow: 1;
+
+}
+.nav__ul__primero{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 0;
     
+}
+
+.nav__ul__segundo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.8rem;
+    width: 10rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.nav__ul__li--icon--puntos{
+    width: 2.4rem;
+}
+
+.nav__ul__segundo__puntos{
+    padding: 0.8rem;
+    width: 4rem ;
+    height: 4rem ;
+}
+
+.nav__ul__primero li{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    margin-right: 0.8rem;
+    padding: 0 0.8rem;
+    text-transform: uppercase;
+}
+
+.nav__ul__li{
+    width: auto;
+    height: auto;
+}
+
+.nav__ul__li--icon--user{
+    width: 3rem;
+    border-radius: 2rem;
 }
