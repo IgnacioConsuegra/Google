@@ -9,3 +9,74 @@ html{
 :root{
     
 }
+
+/*Estilos del Main*/
+
+.main-logo {
+    width: 150px;
+    height: 70px;
+    margin: 0 auto;
+}
+.main-logo img {
+    width: 150px;
+    height: 70px;
+}
+
+.main-input-container {
+    width: 270px;
+    height: 30px;
+    margin: 0 auto;  
+    margin-top: 10px;
+    background-color: blue;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+.main-input-container .search-icon{
+    background-image: url ('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+
+}
+.main-input-container input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    font: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-input-container a {
+    background-image: url ('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.main-button{
+    height: 40px;
+    display: flex;
+    margin-top: 15px;
+}
+.main-button div {
+    width: 130px;
+    height: 35px;
+    margin:0 auto ;
+    border: 1px solid grey;
+    background-color: #707070;
+}
+
+.main-button button {
+    width: 120px;
+    height: 30px;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: #707070;
+
+}
